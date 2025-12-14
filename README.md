@@ -1,4 +1,4 @@
-# Sistema de Folha de Pagamento (ERP) para lojas
+# Sistema de Folha de Pagamento para lojas
 
 Este é o segundo projeto que desenvolvi enquanto cursava a matéria de **Programação Orientada a Objetos**. O objetivo foi praticar conceitos da disciplina como a modelagem de classes e a implementação de regras de negócio em Java.  
 O sistema simula uma **folha de pagamento** responsável por gerenciar empregados e gerentes de várias lojas, realizando cálculos de salários, descontos e estatísticas salariais.
