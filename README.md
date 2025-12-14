@@ -11,8 +11,6 @@ O sistema gerencia:
 - Descontos e gratificações
 - Relacionamentos entre objetos conforme o modelo de negócio
 
-O projeto foi implementado seguindo os princípios de **POO**, com foco em herança, polimorfismo, encapsulamento e uso de membros estáticos.
-
 ---
 
 ## Regras de Negócio
@@ -44,14 +42,10 @@ O projeto foi implementado seguindo os princípios de **POO**, com foco em heran
 ---
 
 ## Estrutura do Projeto
-`Empregado`  
-  Classe base que representa um empregado da loja, contendo regras de salário, matrícula, data de admissão e vínculo com a loja.
+- `Empregado` → Classe base que representa um empregado da loja, contendo regras de salário, matrícula, data de admissão e vínculo com a loja.
 
-`Gerente`  
-  Subclasse de `Empregado`, adicionando gratificação e sobrescrevendo o cálculo de salário.
+- `Gerente` → Subclasse de `Empregado`, adicionando gratificação e sobrescrevendo o cálculo de salário.
 
-`Loja`  
-  Representa uma loja, gerencia a lista de empregados, calcula totais salariais, descontos e identifica o empregado com maior salário.
+- `Loja` → Representa uma loja, gerencia a lista de empregados, calcula totais salariais, descontos e identifica o empregado com maior salário.
 
-`Teste`  
-  Classe responsável por instanciar os objetos, criar relacionamentos e demonstrar o funcionamento do sistema.
+- `Teste` → Classe responsável por instanciar os objetos, criar relacionamentos e demonstrar o funcionamento do sistema.
