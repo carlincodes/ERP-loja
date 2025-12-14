@@ -44,14 +44,14 @@ O projeto foi implementado seguindo os princípios de **POO**, com foco em heran
 ---
 
 ## Estrutura do Projeto
-- `Empregado`  
+ `Empregado`  
   Classe base que representa um empregado da loja, contendo regras de salário, matrícula, data de admissão e vínculo com a loja.
 
-- `Gerente`  
+ `Gerente`  
   Subclasse de `Empregado`, adicionando gratificação e sobrescrevendo o cálculo de salário.
 
-- `Loja`  
+ `Loja`  
   Representa uma loja, gerencia a lista de empregados, calcula totais salariais, descontos e identifica o empregado com maior salário.
 
-- `Teste`  
+ `Teste`  
   Classe responsável por instanciar os objetos, criar relacionamentos e demonstrar o funcionamento do sistema.
